@@ -20,6 +20,11 @@ section {
 h1, h2{
   font-family: 'Bitter';
   color: #4AAAA5;
+  padding-bottom: 20px;
+}
+
+hr{
+  color: #ccc;
 }
 
 ul{
@@ -29,6 +34,26 @@ ul a{
   text-decoration: none;
   float: right;
   padding-right: 10px;
+  padding-left: 10px;
+  color: #808D99;
+  font-family: 'Bitter';
+}
+
+li{
+  display: inline;
+  float: right;
+  border-right: 1px solid #ccc;
+
+}
+
+li:first-child {
+  border-right: none;
+}
+
+p{
+  color: #666;
+  font-family: 'Asap Condensed', sans-serif;
+  text-align: justify;
 }
 
 .navigation{
@@ -39,10 +64,13 @@ ul a{
 
 .name{
   float: left;
-  width: 33%;
-  background-color: #4aaaa5;
-  color: #fff;
+  width: 300px;
   height: 100px;
+  background-color: #4aaaa5;
+  margin: 0 auto;
+  padding-top: 0;
+  position: absolute;
+  top:0;
 }
 
 .connect{
@@ -51,8 +79,8 @@ ul a{
   margin-bottom: 20px;
   background: #fff;
   float: left;
-  width: 25%;
-  height: 200px;
+  width: 200px;
+  height: 150px;
 }
 
 .main{
@@ -61,7 +89,6 @@ ul a{
   background: #fff;
   float: left;
   width: 60%;
-  text-align: justify;
   word-wrap: break-word;
 }
 
@@ -73,4 +100,33 @@ footer {
   border-top: 7px solid #4AAAA5;
   color: #ccc;
   font-size: 12px;
+}
+
+.left{
+  float: left;
+  padding: 0 20px 20px 0;
+}
+
+.icons{
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+#github{
+  color: #000;
+}
+
+#linkedin{
+  color: #007BB6;
+}
+
+#stackoverflow{
+  color: #FF9900;
+}
+
+.lowered{
+  color: #fff;
+  font-size: 38px;
+  padding-top: 30px;
+  padding-left: 20px;
 }
