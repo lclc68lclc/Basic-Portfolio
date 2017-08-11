@@ -1,0 +1,76 @@
+body {
+  font-size: 24px;
+  line-height: 32px;
+  background-image: url("../images/ep_naturalwhite.png");
+  color: #333;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #fff;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1, h2{
+  font-family: 'Bitter';
+  color: #4AAAA5;
+}
+
+ul{
+  list-style-type: none; 
+}
+ul a{
+  text-decoration: none;
+  float: right;
+  padding-right: 10px;
+}
+
+.navigation{
+  margin-right: 10px;
+  padding: 30px;
+  font-size: 16px;
+}
+
+.name{
+  float: left;
+  width: 33%;
+  background-color: #4aaaa5;
+  color: #fff;
+  height: 100px;
+}
+
+.connect{
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  float: left;
+  width: 25%;
+  height: 200px;
+}
+
+.main{
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  float: left;
+  width: 60%;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+footer {
+  padding: 20px;
+  clear: both;
+  background: #666;
+  text-align: center;
+  border-top: 7px solid #4AAAA5;
+  color: #ccc;
+  font-size: 12px;
+}
